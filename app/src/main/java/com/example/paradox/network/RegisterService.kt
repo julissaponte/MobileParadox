@@ -16,6 +16,9 @@ interface RegisterInterface {
     @POST("/api/employeers")
     fun createEmployeer(@Body requestEmployeer: RequestEmployeer): Call<ResponseEmployeer>
 
+    @POST("/api/postulants")
+    fun createPostulant(@Body requestEmployeer: RequestEmployeer): Call<ResponseEmployeer>
+
 
 }
 

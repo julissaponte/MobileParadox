@@ -12,6 +12,7 @@ class RegisterPostulantActivity : AppCompatActivity() {
         setContentView(R.layout.activity_register_postulant)
         val etPerfilPostulante = findViewById<Button>(R.id.btnContinuarPostulante)
 
+        setContentView(R.layout.activity_perfil_postulante)
 
         etPerfilPostulante.setOnClickListener {
 
