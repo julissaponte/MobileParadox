@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/publishedWorksFragment"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/mis_anuncios"
+            android:title="Mis anuncios" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/publicar_anuncio"
+            android:title="Publicar anuncio" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/mis_compañias"
+            android:title="Mis compañias" />
+        <item
+            android:id="@+id/agregar_compañia"
+            android:title="Agregar compañia" />
+        <item
+            android:id="@+id/mi_perfil"
+            android:title="Mi perfil" />
 
     </group>
 </menu>

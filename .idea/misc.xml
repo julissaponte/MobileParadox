@@ -107,9 +107,12 @@
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_filtros.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_information_job.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_login.xml" value="0.2484375" />
-        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_main.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_menu.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_multiselect.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_my_announcement.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_navigation_employeer.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_navigation_postulant.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_perfil_postulante.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_postulant.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_postulant_profile.xml" value="0.2484375" />
@@ -118,17 +121,33 @@
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_register_employeer.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_register_postulant.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_see_professional_profile_p.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_see_profile_postulant.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_view_companies_employer.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_view_company_employer.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/activity_watch_announcement.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/app_bar_main.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/app_bar_navigation_employeer.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/app_bar_navigation_postulant.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/content_main.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/content_navigation_employeer.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/content_navigation_postulant.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_announcement.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_gallery.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_home.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_my_announcement.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_my_profile_employeer.xml" value="0.264" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_postulation.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_published_works.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_see_profile_postulant_b.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/fragment_slideshow.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/nav_header_main.xml" value="0.264" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/nav_header_navigation_employeer.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/layout/prototype_company.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/menu/activity_menu_drawer.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/menu/activity_navigation_employeer_drawer.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/menu/activity_navigation_postulant_drawer.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/menu/menu.xml" value="0.2484375" />
+        <entry key="..\:/Users/ippo_/OneDrive/Escritorio/MobileParadox/app/src/main/res/menu/navigation_employeer.xml" value="0.2484375" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/este/MobileParadox/app/src/main/res/layout/activity_add_company.xml" value="0.25" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/este/MobileParadox/app/src/main/res/layout/activity_bar.xml" value="0.1" />
         <entry key="..\:/Users/ippo_/OneDrive/Escritorio/este/MobileParadox/app/src/main/res/layout/activity_edit_announcement.xml" value="0.25" />
