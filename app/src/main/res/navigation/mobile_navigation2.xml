@@ -20,7 +20,19 @@
         android:id="@+id/mi_perfil"
         android:name="com.example.paradox.ui.profiles.SeeProfilePostulantB"
         android:label="@string/miPerfil"
+<<<<<<< HEAD
         tools:layout="@layout/fragment_my_profile_employeer" />
+=======
+        tools:layout="@layout/fragment_see_profile_postulant_b" />
+
+    <fragment
+        android:id="@+id/profProfileFragment"
+        android:name="com.example.paradox.ui.profiles.SeeProfProfileB"
+        android:label="Mi perfil profesional"
+        tools:layout="@layout/fragment_see_prof_profile_b" />
+
+
+>>>>>>> c06e073480c2f1e8715adbfacfcaefc33962a58a
 <!--    <fragment-->
 <!--        android:id="@+id/nav_slideshow"-->
 <!--        android:name="com.example.paradox.ui.slideshow.SlideshowFragment"-->
