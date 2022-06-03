@@ -1,10 +1,13 @@
 package com.example.paradox.controller.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
+import com.example.paradox.NavigationPostulantActivity
 import com.example.paradox.R
 import com.example.paradox.models.*
 import com.example.paradox.network.PostulantService
@@ -26,6 +29,7 @@ class EditProfessionalProfileP : AppCompatActivity() {
         val tvMultiSelect = findViewById<TextView>(R.id.tvMultiSelectB)
         val tvMultiSelectStudies = findViewById<TextView>(R.id.tvMultiSelectStudies)
         val tvMultiSelectLenguages = findViewById<TextView>(R.id.tvMultiSelectLenguages)
+        val btSaveProfProfile = findViewById<TextView>(R.id.btSaveProfProfile)
 
         tvMultiSelect.setOnClickListener{
             configMultiSelectSkills()
@@ -35,6 +39,9 @@ class EditProfessionalProfileP : AppCompatActivity() {
         }
         tvMultiSelectLenguages.setOnClickListener{
             configMultiSelectLanguages()
+        }
+        btSaveProfProfile.setOnClickListener{
+            saveEditedProfProfile()
         }
         if (intent.extras != null) {
             loadData()
@@ -54,6 +61,43 @@ class EditProfessionalProfileP : AppCompatActivity() {
         if (profileId != null) {
             getData(profileId)
         }
+    }
+
+    private fun saveEditedProfProfile() {
+
+        val sharedPreferences = SharedPreferences(this@EditProfessionalProfileP)
+        val id = sharedPreferences.getValues("id").toString().toInt()
+        val profileId: Int? = intent.extras?.getInt("profileId")
+        val etDegreeEdit = findViewById<EditText>(R.id.etDegreeEdit)
+        val etProfileDescriptionShow = findViewById<EditText>(R.id.etProfileDescriptionShow)
+        val profProfileLocal: ProfProfile = intent.getParcelableExtra("ProfProfile")!!
+
+        val profProfileBri = ProfProfile(profProfileLocal.id, etDegreeEdit.text.toString(), etProfileDescriptionShow.text.toString(), profProfileLocal.video)
+
+        profileId?.let {
+            PostulantService.postulantInstance.editProfileOfSpecificPostulant(
+                id,
+                profileId, profProfileBri
+            )
+        }?.enqueue(object : Callback<ProfProfile> {
+            override fun onResponse(call: Call<ProfProfile>, response: Response<ProfProfile>) {
+                if (response.isSuccessful) {
+                    Toast.makeText(this@EditProfessionalProfileP, "Successfully updated", Toast.LENGTH_LONG).show()
+                    Handler().postDelayed({
+                        val intent = Intent(this@EditProfessionalProfileP, NavigationPostulantActivity::class.java)
+                        startActivity(intent)
+                    }, 1700)
+                }
+            }
+
+            override fun onFailure(call: Call<ProfProfile>, t: Throwable) {
+                Toast.makeText(
+                    this@EditProfessionalProfileP,
+                    "Operation unsuccessfully",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+        })
     }
 
     private fun getData(profileId: Int) {
@@ -161,7 +205,6 @@ class EditProfessionalProfileP : AppCompatActivity() {
         })
 
     }
-
     private fun configMultiSelectSkills() {
         val checkedSkillsArray = BooleanArray(skills.size)
         val tvMultiSelect = findViewById<TextView>(R.id.tvMultiSelectB)
@@ -198,7 +241,6 @@ class EditProfessionalProfileP : AppCompatActivity() {
         val dialog = builder.create()
         dialog.show()
     }
-
     private fun configMultiSelectStudies() {
         val checkedStudiesArray = BooleanArray(studies.size)
         val tvMultiSelectStudies = findViewById<TextView>(R.id.tvMultiSelectStudies)
